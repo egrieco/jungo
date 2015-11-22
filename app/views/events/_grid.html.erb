@@ -1,5 +1,7 @@
 <%= grid(@events_grid) do |g|
 
+  g.column name: 'Start', attribute: 'start_time'
+
   g.column name: 'Name', attribute: 'name'
 
   g.column name: 'Description', attribute: 'description'
