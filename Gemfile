@@ -36,6 +36,9 @@ gem 'pundit'
 # for pagination of records. Read more: https://github.com/mislav/will_paginate/wiki
 gem 'will_paginate'
 
+# for dumping and loading test data. Read more: https://github.com/yamldb/yaml_db
+gem 'yaml_db'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
