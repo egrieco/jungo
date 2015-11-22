@@ -39,6 +39,9 @@ gem 'will_paginate'
 # for dumping and loading test data. Read more: https://github.com/yamldb/yaml_db
 gem 'yaml_db'
 
+# for generating tables and CSV downloads. Read more: https://github.com/leikind/wice_grid
+gem "wice_grid"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
