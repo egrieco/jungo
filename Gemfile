@@ -54,6 +54,9 @@ gem 'jquery-ui-rails'
 gem 'therubyracer'
 gem "execjs"
 
+# for storing secrets in YAML files outside SCM and not in the ENV
+gem 'figaro'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
