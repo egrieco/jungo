@@ -6,7 +6,7 @@
 
   g.column name: 'Location', attribute: 'location'
 
-  g.column do |event|
-    link_to('Edit', edit_event_path(event))
+  g.column do |organization|
+    link_to('Edit', edit_organization_path(organization))
   end
 end -%>
