@@ -1,0 +1,10 @@
+<%= grid(@organizations_grid) do |g|
+
+  g.column name: 'Name', attribute: 'name'
+
+  g.column name: 'Description', attribute: 'description'
+
+  g.column do |event|
+    link_to('Edit', edit_event_path(event))
+  end
+end -%>

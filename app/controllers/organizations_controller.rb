@@ -5,6 +5,8 @@ class OrganizationsController < ApplicationController
   # GET /organizations.json
   def index
     @organizations = Organization.all
+
+    @organizations_grid = initialize_grid(Organization)
   end
 
   # GET /organizations/1
