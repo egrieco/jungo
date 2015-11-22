@@ -42,6 +42,10 @@ gem 'yaml_db'
 # for generating tables and CSV downloads. Read more: https://github.com/leikind/wice_grid
 gem "wice_grid"
 
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
