@@ -30,6 +30,9 @@ gem 'autoprefixer-rails'
 # Devise for authentication. Read more: https://github.com/plataformatec/devise
 gem 'devise'
 
+# Pundit for authorization. Read more: https://github.com/elabs/pundit
+gem 'pundit'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
