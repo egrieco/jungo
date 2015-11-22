@@ -1,10 +1,10 @@
 <%= grid(@events_grid) do |g|
 
-  g.column do |event|
+  g.column name: 'Name' do |event|
     event.name
   end
 
-  g.column do |event|
+  g.column name: 'Description' do |event|
     event.description
   end
 
