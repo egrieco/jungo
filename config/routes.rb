@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+
+  get 'pages/about'
+
+  get 'pages/events'
+
+  get 'pages/contact'
+
   resources :tags
   devise_for :users
   resources :events
