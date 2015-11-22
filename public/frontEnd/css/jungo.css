@@ -1,0 +1,192 @@
+/* Global Styles */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+a, a:active, a:focus, a:hover, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FCC508 !important; 
+}
+
+h1,
+.h1 {
+  font-size: 32px;
+}
+h2,
+.h2 {
+  font-size: 28px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 400;
+  /* color: inherit; */
+}
+
+img {
+    vertical-align: top;
+
+}
+
+p {
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+/* Navigation */
+
+
+#brand {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.navbar-inverse {
+    background-color: #F46524;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFF !important;
+}
+
+.navbar-header .navbar-brand a, a:link, a:active, a:focus, a:hover, a:visited {
+    color: #FCE885;
+}
+
+#rw-navbar a.active {
+    background-color: #F58D1E;
+    color: #FFF;
+}
+
+#rw-navbar a {
+    color: #FFF;
+}
+/* nav.navbar-inverse a:link, a:visited {
+    color: #B1D6FA !important;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    margin:0 !important;
+    min-height: 450px;
+    background:url(../img/headerbg.jpg) center no-repeat;
+}
+
+
+/* Page Content */
+
+#benefits {
+    background-color: #D2E2F2;
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+
+#technology {
+    padding-bottom: 50px;
+}
+
+#investment {
+    background-color: #D2E2F2;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 50px;
+}
+
+
+/* Footer Styles */
+
+footer {
+    color: #fff;
+    margin: 50px 0 0 0;
+    background-color: #F46524;  
+}
+
+footer p {
+    color: #FFF;
+    margin-top: 10px;  
+}
+
+footer a:link, a:visited {
+    color: #FCC508;
+}
+
+footer a:hover {
+    text-decoration: none !important;
+    color: #FCC508 !important;
+}
+
+
+/* Scroll Back to Top */
+
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #14518e;
+    color: #eee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 41px;
+    bottom: 34px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #2F82C4;
+    color: #eee;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+    color: #eee;
+}
+
+
+/* Social Icons */
+
+i.social-icon a:focus {
+    line-height: inherit;
+    color: #337ab7 !important;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
