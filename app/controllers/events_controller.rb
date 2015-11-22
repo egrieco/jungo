@@ -5,6 +5,8 @@ class EventsController < ApplicationController
   # GET /events.json
   def index
     @events = Event.all
+
+    @events_grid = initialize_grid(Event)
   end
 
   # GET /events/1

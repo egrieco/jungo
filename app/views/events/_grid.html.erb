@@ -1,0 +1,14 @@
+<%= grid(@events_grid) do |g|
+
+  g.column do |event|
+    event.name
+  end
+
+  g.column do |event|
+    event.description
+  end
+
+  g.column do |event|
+    link_to('Edit', edit_event_path(event))
+  end
+end -%>
