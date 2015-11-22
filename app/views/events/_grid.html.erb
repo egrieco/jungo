@@ -1,6 +1,8 @@
 <%= grid(@events_grid) do |g|
 
-  g.column name: 'Start', attribute: 'start_time'
+  g.column name: 'Start', attribute: 'start_time' do |event|
+    event.start_time.strftime('%a %b %e %H:%m%p')
+  end
 
   g.column name: 'Name', attribute: 'name'
 
