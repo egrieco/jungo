@@ -33,6 +33,9 @@ gem 'devise'
 # Pundit for authorization. Read more: https://github.com/elabs/pundit
 gem 'pundit'
 
+# for pagination of records. Read more: https://github.com/mislav/will_paginate/wiki
+gem 'will_paginate'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
