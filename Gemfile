@@ -50,6 +50,10 @@ gem "wice_grid"
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
+# execjs needs a JavaScript engine or it gets mad when precompiling assets 
+gem 'therubyracer'
+gem "execjs"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
