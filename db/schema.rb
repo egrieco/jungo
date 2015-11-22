@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151122032022) do
+ActiveRecord::Schema.define(version: 20151122032708) do
 
   create_table "events", force: :cascade do |t|
     t.string   "name"
@@ -32,9 +32,13 @@ ActiveRecord::Schema.define(version: 20151122032022) do
     t.string   "city"
     t.string   "state"
     t.string   "zipcode"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.integer  "locateable_id"
+    t.string   "locateable_type"
   end
+
+  add_index "locations", ["locateable_type", "locateable_id"], name: "index_locations_on_locateable_type_and_locateable_id"
 
   create_table "organizations", force: :cascade do |t|
     t.string   "name"
