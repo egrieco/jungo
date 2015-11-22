@@ -1,12 +1,8 @@
 <%= grid(@events_grid) do |g|
 
-  g.column name: 'Name' do |event|
-    event.name
-  end
+  g.column name: 'Name', attribute: 'name'
 
-  g.column name: 'Description' do |event|
-    event.description
-  end
+  g.column name: 'Description', attribute: 'description'
 
   g.column do |event|
     link_to('Edit', edit_event_path(event))
