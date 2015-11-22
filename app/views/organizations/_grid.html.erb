@@ -4,6 +4,8 @@
 
   g.column name: 'Description', attribute: 'description'
 
+  g.column name: 'Location', attribute: 'location'
+
   g.column do |event|
     link_to('Edit', edit_event_path(event))
   end
